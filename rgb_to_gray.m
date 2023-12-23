@@ -1,9 +1,9 @@
-exp_tgt_location = 'E:\\核医学物理原理\\课程大作业\\exp_tgt';
-exp_raw_location = 'E:\\核医学物理原理\课程大作业\\exp_raw';
-train_tgt_location = 'E:\\核医学物理原理\课程大作业\\train_tgt';
-train_raw_location = 'E:\\核医学物理原理\课程大作业\\train_raw';
-test_tgt_location = 'E:\\核医学物理原理\课程大作业\\test_tgt';
-test_raw_location = 'E:\\核医学物理原理\课程大作业\\test_raw';
+exp_tgt_location = './exp_tgt';
+exp_raw_location = './exp_raw';
+train_tgt_location = './train_tgt';
+train_raw_location = './train_raw';
+test_tgt_location = './test_tgt';
+test_raw_location = './test_raw';
 
 subdir = dir(test_tgt_location);
 
