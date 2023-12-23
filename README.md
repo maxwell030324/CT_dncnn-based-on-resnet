@@ -26,6 +26,11 @@ noise_adder.m：添加泊松噪声和radon&iradon变换
 
 rgb_to_gray.m：三通道图像转变为单通道图像
 
-tem.py：
+tem.py：临时文件，处理各类一次性任务
 
-train_config.py：
+train_config.py：训练参数的配置模块
+
+
+使用说明：
+
+在python中打开load_dncnn_model.py，保证“./test_raw”文件夹下有文件，“./res”文件夹存在（可以将代码改得更泛用、更美观，但我懒得改了），直接运行即可在“./res”文件夹中得到修复后的图像
